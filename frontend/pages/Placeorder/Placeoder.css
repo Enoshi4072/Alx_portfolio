@@ -1,0 +1,43 @@
+/* Order placement section styles */
+.order-placement {
+    display: flex;
+    align-items: flex-start; /* Use flex-start for better alignment */
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+  }
+  
+  .order-placement__left {
+    width: 100%;
+    max-width: calc(30% - 50px); /* Use calc for cleaner max-width definition */
+  }
+  
+  .order-placement__left .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  .order-placement__left input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato;
+  }
+  
+  .order-placement__left .multi-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .order-placement__right {
+    width: 100%;
+    max-width: calc(40% - 50px); /* Use calc for cleaner max-width definition */
+  }
+  
+  .order-placement .cart-total button {
+    margin-top: 20px;
+  }
+  
