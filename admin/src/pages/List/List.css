@@ -1,0 +1,27 @@
+.data-grid {  /* Class name change */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  /* Responsive column sizing */
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+  }
+  
+  .data-grid.header {  /* Class name change */
+    background-color: #f9f9f9;
+  }
+  
+  .data-grid img {
+    width: 50px;
+  }
+  
+  @media (max-width: 600px) {
+    .data-grid {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  /* Responsive column sizing */
+    }
+    .data-grid.header {  /* Class name change */
+      display: none;
+    }
+  }
+  
